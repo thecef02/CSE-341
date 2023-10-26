@@ -1,5 +1,9 @@
-const milRoute = (req, res) => {
-    res.send("Hello Millonariote!");
+const pamelaRoute = (req, res) => {
+    res.send("Hello Pamela Fernandez");
   };
 
-module.exports = {milRoute};
+const nateRoute = (req, res) => {
+    res.send("Hello Nathan Fernandez");
+  };
+
+module.exports = {pamelaRoute, nateRoute};
