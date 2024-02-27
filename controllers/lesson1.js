@@ -5,5 +5,6 @@ const pamelaRoute = (req, res) => {
 const nateRoute = (req, res) => {
     res.send("Hello Nathan Fernandez");
   };
+  
 
 module.exports = {pamelaRoute, nateRoute};
